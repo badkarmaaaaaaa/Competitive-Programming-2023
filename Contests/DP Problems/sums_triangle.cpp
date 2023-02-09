@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+#define pb(x) push_back(x)
+#define mp(x,y) make_pair(x,y)
+#define sz(A) int(A.size())
+#define FIFO ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
+#define all(A) begin(A),end(A)
+using namespace std;
+typedef long long ll;
+typedef pair<int,int> pii;
+typedef pair<ll,ll> pll;
+typedef vector<int> vi;
+typedef vector<long long> vl;
+typedef vector<pair<ll,ll>> vll;
+typedef vector<pair<int,int>> vii;
+
+#define N 110
+#define MIN -1000000000
+
+
+int memo[N][N];
+int triangle[N][N];
+int n;
+
+//r:row c:column
+int dp(int r, int c) {
+    
+    if(memo[r][c]!=-1) return memo[r][c];
+
+    if(r==n-1) return memo[r][c]=triangle[r][c];
+
+    return memo[r][c]=max(triangle[r][c]+dp(r+1,c),triangle[r][c]+dp(r+1,c+1));
+    
+}
+
+
+int main () {
+    FIFO;
+    int t; cin>> t;
+    while (t--) {
+        memset(memo,-1,sizeof(memo));
+        cin>>n;
+        // for(int i=0; i<n;i++) {
+        //     for(int j=0; j<n;j++) {
+        //         triangle[i][j]=0;
+        //     }
+        // }
+
+        for(int i=0; i<n;i++) {
+            for(int j=0; j<=i;j++) {
+                cin>>triangle[i][j];
+            }
+        }
+
+    cout<<dp(0,0)<<endl;
+
+    }
+
+
+    return 0;
+}

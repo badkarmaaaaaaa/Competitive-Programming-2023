@@ -1,0 +1,1 @@
+{"name":"Local: cut_ribbon","url":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\DP Problems\\cut_ribbon.cpp","tests":[{"id":1673884104230,"input":"5 5 3 2","output":"2"},{"id":1673884147703,"input":"7 5 5 2","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\DP Problems\\cut_ribbon.cpp","group":"local","local":true}

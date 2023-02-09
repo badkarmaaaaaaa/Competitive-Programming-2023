@@ -1,0 +1,1 @@
+{"name":"Local: pC","url":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\DP Problems\\contest\\pC.cpp","tests":[{"id":1675221291287,"input":"4 1 2 5\n0 0\n-2 -2\n5 6\n3 3","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\DP Problems\\contest\\pC.cpp","group":"local","local":true}

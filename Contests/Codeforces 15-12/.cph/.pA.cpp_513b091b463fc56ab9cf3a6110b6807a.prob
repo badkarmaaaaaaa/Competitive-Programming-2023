@@ -1,0 +1,1 @@
+{"name":"Local: pA","url":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\Codeforces 15-12\\pA.cpp","tests":[{"id":1671156709632,"input":"2\n3 1\n3 1 4\n8 10\n0 0 0 0 0 0 1 0\n","output":"2 1 5 \n0 1 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\Codeforces 15-12\\pA.cpp","group":"local","local":true}
