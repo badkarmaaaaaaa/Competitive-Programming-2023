@@ -1,1 +1,0 @@
-{"name":"Local: pJ","url":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pJ.cpp","tests":[{"id":1672554742286,"input":"2\n10 3 1 1\n1000000000 1 1000000000 1","output":"13\n1000000001000000000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pJ.cpp","group":"local","local":true}

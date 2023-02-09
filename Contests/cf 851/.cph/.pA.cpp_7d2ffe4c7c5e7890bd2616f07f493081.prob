@@ -1,1 +1,0 @@
-{"name":"Local: pA","url":"c:\\Users\\aldof\\Desktop\\C++\\PC-FIM\\Contest Febrero\\cf 851\\pA.cpp","tests":[{"id":1675953511944,"input":"3\n6\n2 2 1 2 1 2\n3\n1 2 1\n4\n1 1 1 1","output":"2\n-1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\C++\\PC-FIM\\Contest Febrero\\cf 851\\pA.cpp","group":"local","local":true}

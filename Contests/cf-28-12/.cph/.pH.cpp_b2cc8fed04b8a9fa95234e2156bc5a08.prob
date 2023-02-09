@@ -1,1 +1,0 @@
-{"name":"Local: pH","url":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pH.cpp","tests":[{"id":1672555767612,"input":"7\n1\n10\n25\n30\n14\n27\n1000000000000000000\n","output":"0\n4\n6\n6\n-1\n6\n72\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pH.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: pM","url":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pM.cpp","tests":[{"id":1672557823123,"input":"3\n1 -2 0\n","output":"3"},{"id":1672557831104,"input":"6\n16 23 16 15 42 8","output":"120"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\C++\\Contests\\cf-28-12\\pM.cpp","group":"local","local":true}

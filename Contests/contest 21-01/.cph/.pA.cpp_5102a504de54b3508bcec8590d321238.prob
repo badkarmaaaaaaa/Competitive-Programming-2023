@@ -1,1 +1,0 @@
-{"name":"Local: pA","url":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\contest 21-01\\pA.cpp","tests":[{"id":1674312288914,"input":"3\n5\n1 7 11 2 13\n4\n1 2 3 4\n6\n1 1 1 2 2 3\n","output":"2\n0\n3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\aldof\\Desktop\\PCFIM 2023\\contest 21-01\\pA.cpp","group":"local","local":true}
