@@ -13,12 +13,21 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
     int t; cin>>t;
+    int iterator=0;
     while(t--) {
-        //
+        int l,w,h; cin>>l>>w>>h;
+
+        bool flag = true;
+
+        if(20<l) flag = false;
+        if(20<w) flag = false;
+        if(20<h) flag = false;
+        iterator++;
+
+        cout<<(flag?: "Case "<<iterator<<": good":"Case "<<iterator<<": bad")<<endl;
+
     }
     
     return 0;

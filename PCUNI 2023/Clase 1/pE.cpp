@@ -13,13 +13,15 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
+    int n,k; cin>>n>>k;
+
+    int a[n];
+    for(int i=0; i<n; i++) {
+        cin>>a[i];
     }
+
+    
     
     return 0;
 }

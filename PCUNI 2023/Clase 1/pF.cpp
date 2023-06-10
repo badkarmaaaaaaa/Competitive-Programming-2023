@@ -13,12 +13,27 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
+    ll n,a,b; cin>>n>>a>>b;
+
+    bool flag = false;
+    ll aAns, bAns;
+
+    for(int i=0; i<= n/a ; i++) {
+        if((n-i*a)%b==0 && (n-i*a)>=0) {
+            aAns=i;
+            bAns=(n-i*a)/b;
+            flag = true;
+            break;
+        }
+    }
+
+    if(flag) {
+        cout<<"YES"<< endl;
+        cout<< aAns<< " "<<bAns<<endl;
+    }
+    else {
+        cout<<"NO"<< endl;
     }
     
     return 0;

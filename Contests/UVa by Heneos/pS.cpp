@@ -13,13 +13,33 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
     int t; cin>>t;
+    int total = 0;
     while(t--) {
-        //
+        float lenght, width, depth, weight; cin >> lenght >> width >> depth >> weight;
+
+        bool flag = true;
+
+
+        if((lenght > 56*1.00 or width > 45*1.00 or depth > 25*1.00 )) {
+            if((lenght+width+depth > 125*1.00))    flag = false;
+    
+        }
+
+        
+
+        if(weight > 7*1.00) flag = false;
+
+        cout << (flag ? "1":"0" )<< endl;
+
+        if(flag) total++;
+
     }
+
+    cout<< total<<endl;
+
+
     
     return 0;
 }

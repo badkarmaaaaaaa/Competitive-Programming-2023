@@ -13,13 +13,16 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
-int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
-    }
-    
-    return 0;
+int main(){
+	int n=0;
+	long double s=0;
+	cin>>n;
+	for(int i=0;i<n;i++){
+		long double l=0;
+		cin>>l;
+		s+=l*l*l;
+	}
+	long double rpta=0;
+	rpta=pow(s*1.0,(0.3333333333));
+	cout<<fixed<<setprecision(7)<<rpta<<endl;
 }

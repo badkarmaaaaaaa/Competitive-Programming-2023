@@ -13,12 +13,25 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
     int t; cin>>t;
     while(t--) {
-        //
+        int n; cin>>n; int a[n];
+
+        for(int i=0; i<n;i++) {
+            cin>> a[i];
+        }
+
+        int maxDiff=a[0]-a[1], maxNum=a[0];
+
+        for(int i=1; i < n; i++) {
+
+            if(maxNum-a[i] > maxDiff) maxDiff=maxNum-a[i];
+            if(a[i] > maxNum) maxNum=a[i];
+        }
+
+        cout<< maxDiff << endl;
+
     }
     
     return 0;

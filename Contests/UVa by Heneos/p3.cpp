@@ -13,13 +13,8 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
-    }
     
+    cout<<"May 29, 2013 Wednesday\n";
     return 0;
 }

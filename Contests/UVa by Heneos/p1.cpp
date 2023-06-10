@@ -13,12 +13,13 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
+    int v,t;
+    while(cin>>v>>t) {
+        if(t==0) { cout<<0<<endl; continue;}
+        float accel = v/(1.0*t);
+        float ans = 2*accel*pow(t,2);
+        cout<<ans<<endl;
     }
     
     return 0;

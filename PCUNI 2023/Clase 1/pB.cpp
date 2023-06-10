@@ -13,13 +13,23 @@ typedef vector<long long> vl;
 typedef vector<pair<ll,ll>> vll;
 typedef vector<pair<int,int>> vii;
 
-// TY Cegax
-
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
+    int n; cin>>n;
+    string s; cin>>s;
+    bool flag = false;
+
+    for(int i=0; i<n; i++){
+        char c = s[i];
+
+        if(c=='o') flag = true;
+
+        if(c=='x') {
+            flag = false; break;
+        }
+
     }
+
+    cout<< (flag? "Yes":"No")<< endl;
     
     return 0;
 }

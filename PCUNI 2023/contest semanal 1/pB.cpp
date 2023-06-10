@@ -16,9 +16,18 @@ typedef vector<pair<int,int>> vii;
 // TY Cegax
 
 int main() {
-    int t; cin>>t;
-    while(t--) {
-        //
+    int n,m; cin>>n>>m;
+    vi h;
+    vi t;
+
+    for(int i=0; i<n;i++) cin>>h[i];
+    for(int i=0; i<m;i++) cin>>t[i];
+
+    sort(h,h+n);
+
+    for(int i=0; i<m;i++) {
+        int up = upper_bound (h.begin(),h.end(),t[i]);
+        cout<<h[up-h.begin()-1]<<endl;
     }
     
     return 0;
